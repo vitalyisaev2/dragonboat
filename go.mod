@@ -8,7 +8,10 @@ require (
 	github.com/hashicorp/memberlist v0.2.2
 	github.com/juju/ratelimit v1.0.2-0.20191002062651-f60b32039441
 	github.com/lni/goutils v1.3.0
-	github.com/stretchr/testify v1.6.1
+	github.com/pkg/errors v0.9.1
+	github.com/stretchr/testify v1.7.0
 )
 
 go 1.14
+
+replace github.com/lni/goutils v1.3.0 => github.com/vitalyisaev2/goutils v1.3.1-0.20211112084643-6b920c71869b
